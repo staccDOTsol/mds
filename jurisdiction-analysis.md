@@ -52,7 +52,7 @@ graph TD
 Visualization of the 198 analyzed contributors, showing the split between Solana employees and other NY-based developers.
 
 ```mermaid
-# Caption: Contributor Distribution - Analysis of 198/350 contributors showing geographic concentration
+%% Caption: Contributor Distribution - Analysis of 198/350 contributors showing geographic concentration
 graph TD
     subgraph "NY Development Hub"
         NY[NY Contributors: 52 total]

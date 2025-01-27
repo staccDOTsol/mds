@@ -7,7 +7,7 @@ This document provides detailed visualizations and analysis of Solana's transact
 This diagram shows how transactions are intercepted at the UI layer, reconstructed for MEV extraction, and processed through multiple validators before final block inclusion.
 
 ```mermaid
-# Caption: MEV Extraction Layer Architecture - Transaction flow from creation through extraction to block production
+%% Caption: MEV Extraction Layer Architecture - Transaction flow from creation through extraction to block production
 graph TD
     A[Transaction Creation] --> B[MEV Extraction Points]
     
