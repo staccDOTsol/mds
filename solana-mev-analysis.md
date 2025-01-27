@@ -7,6 +7,7 @@ This document provides a comprehensive technical analysis of Solana's MEV extrac
 ## Transaction Flow
 
 ```mermaid
+# Caption: Transaction Processing Flow - Complete sequence from user submission through leader inspection to final confirmation
 sequenceDiagram
     participant U as User
     participant N as Network
@@ -24,6 +25,7 @@ sequenceDiagram
 ## Network Architecture
 
 ```mermaid
+# Caption: Network Architecture - Hierarchical system showing transaction flow from user through leader to block production
 graph TD
     A[User] --> B[Network]
     B --> C[Leader]
@@ -36,6 +38,7 @@ graph TD
 ## MEV Extraction Flow
 
 ```mermaid
+# Caption: MEV Extraction Flow - Linear progression showing transaction transformation through MEV extraction process
 flowchart LR
     A[Transaction] --> B[Network]
     B --> C[Leader]

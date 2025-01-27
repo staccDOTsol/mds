@@ -5,6 +5,7 @@ This document provides detailed visualizations and analysis of Solana's transact
 # Solana Transaction Flow & MEV Extraction Points
 
 ```mermaid
+# Caption: MEV Extraction Layer Architecture - Complete system showing parallel processing paths through extraction layer to block production
 graph TD
     A[Transaction Creation] --> B[MEV Extraction Points]
     

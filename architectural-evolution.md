@@ -25,6 +25,7 @@ This document traces the evolution of Solana's MEV architecture, focusing on key
 - Current extraction patterns established
 
 ```mermaid
+# Caption: Evolution Timeline - Progression from basic Solana Labs implementation through Jito introduction to current architecture
 graph TD
     subgraph "Evolution Timeline"
         A[Solana Labs Initial] --> B[Jito Launch]
@@ -49,6 +50,7 @@ graph TD
 
 ### Queue System
 ```mermaid
+# Caption: Queue System - Transaction flow through priority and regular queues with leader peek capability
 sequenceDiagram
     participant User
     participant Validator
@@ -65,6 +67,7 @@ sequenceDiagram
 
 ### Leader Validator Privileges
 ```mermaid
+# Caption: Leader Validator Privileges - MEV opportunity flow through queue visibility and transaction information access
 graph LR
     A[Leader Validator] --> B[Queue Visibility]
     B --> C[Low Priority Tx Pool]

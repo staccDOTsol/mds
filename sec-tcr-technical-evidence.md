@@ -7,6 +7,7 @@ This technical analysis examines security implications of Solana's MEV infrastru
 ## System Architecture Overview
 
 ```mermaid
+# Caption: System Architecture Overview - Transaction layer and validator layer interaction points
 graph TB
     subgraph "Transaction Layer"
         A[User Transaction] --> B[Transaction Pool]
@@ -38,6 +39,7 @@ graph TB
 ## Queue System Analysis
 
 ```mermaid
+# Caption: Queue System Analysis - Privileged access window showing leader validator MEV extraction process
 sequenceDiagram
     participant User
     participant Pool as Transaction Pool
@@ -64,6 +66,7 @@ sequenceDiagram
 ### 1. Queue Access Pattern
 
 ```mermaid
+# Caption: Queue Access Pattern - Hierarchical access control showing privileged leader visibility vs limited regular validator access
 graph LR
     subgraph "Queue Access Control"
         A[Transaction] --> B{Access Level}
@@ -82,6 +85,7 @@ graph LR
 ### 2. Information Flow
 
 ```mermaid
+# Caption: Information Flow Analysis - Leader validator's privileged position enabling market intelligence and trading opportunities
 graph TD
     subgraph "Information Asymmetry"
         A[Transaction Details] --> B[Leader Validator]
@@ -121,6 +125,7 @@ graph TD
 ### System Design Considerations
 
 ```mermaid
+# Caption: Security Considerations Framework - Critical system components requiring security mitigation
 graph TB
     subgraph "Security Considerations"
         A[System Design] --> B[Queue Privacy]

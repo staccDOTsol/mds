@@ -22,6 +22,7 @@ This analysis tracks the evolution of MEV extraction mechanisms in Solana, focus
 ## 1. Transaction Flow Reality
 
 ```mermaid
+# Caption: Transaction Flow Reality - Detailed sequence showing two MEV extraction points: at wrapper and leader levels
 sequenceDiagram
     participant U as User
     participant D as Dapp
@@ -46,6 +47,7 @@ sequenceDiagram
 
 ### Network Layer Truth
 ```mermaid
+# Caption: Network Layer Truth - Direct path showing how wrapper dapps intercept and modify transactions pre-RPC
 graph LR
     A[Transaction Intent] --> B[Wrapper Dapp]
     B --> C[MEV Extraction]
@@ -76,6 +78,7 @@ graph LR
 
 ### Transaction Flow Reality
 ```mermaid
+# Caption: Key Insights Flow - Progressive transaction analysis showing how user intent becomes MEV opportunity through multiple extraction layers
 graph TD
     A[User Intent] --> B[Dapp Interface]
     B --> C[Wrapper Analysis]

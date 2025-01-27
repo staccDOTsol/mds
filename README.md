@@ -76,6 +76,7 @@ From analysis of 198 out of 350 total contributors:
 ## Document Relationships
 
 ```mermaid
+# Caption: Document Relationship Map - Interconnections between analysis documents showing information flow and dependencies
 graph TD
     A[jurisdiction-analysis.md] --> B[solana-mev-analysis.md]
     B --> C[solana-mev-evolution.md]
