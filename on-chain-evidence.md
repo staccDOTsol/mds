@@ -23,8 +23,7 @@ This document presents empirical evidence from on-chain analysis of Solana's tra
 
 ## Key Metrics
 
-### Transaction Queue Patterns
-# Transaction Queue Pattern Analysis - Flow showing priority levels and leader peek windows for MEV opportunities
+### Transaction Queue Pattern Analysis - Flow showing priority levels and leader peek windows for MEV opportunities
 ```mermaid
 
 graph LR
