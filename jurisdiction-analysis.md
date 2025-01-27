@@ -6,6 +6,8 @@ This analysis examines the jurisdictional implications of Solana's MEV infrastru
 
 ## Geographic Distribution
 
+This diagram shows the NY development center's connections to both Wall Street and key control points in the network.
+
 ```mermaid
 %% Caption: Geographic Distribution - NY development hub showing financial and control point relationships
 graph TD
@@ -46,6 +48,8 @@ graph TD
      * rob-solana: 658 contributions
 
 ## Contributor Statistics
+
+Visualization of the 198 analyzed contributors, showing the split between Solana employees and other NY-based developers.
 
 ```mermaid
 # Caption: Contributor Distribution - Analysis of 198/350 contributors showing geographic concentration
@@ -98,6 +102,8 @@ graph TD
 
 ## Transaction Flow Analysis
 
+Shows how NY-based infrastructure influences transaction flow and MEV extraction through the validator network.
+
 ```mermaid
 %% Caption: Infrastructure Control Flow - Transaction and development control points centered in NY
 sequenceDiagram
@@ -129,6 +135,8 @@ sequenceDiagram
    - Protocol evolution direction
 
 ## Infrastructure Impact
+
+Demonstrates how NY hub's development control flows through to network architecture and control mechanisms.
 
 ```mermaid
 %% Caption: Development Control Flow - NY hub influence over core development and network architecture

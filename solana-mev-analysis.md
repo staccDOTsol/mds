@@ -6,6 +6,8 @@ This document provides a comprehensive technical analysis of Solana's MEV extrac
 
 ## Transaction Flow
 
+This sequence diagram shows the complete lifecycle of a transaction, highlighting the critical inspection and ordering points where MEV can be extracted.
+
 ```mermaid
 %% Caption: Transaction Processing Flow - Complete sequence from user submission through leader inspection to final confirmation
 sequenceDiagram
@@ -24,6 +26,8 @@ sequenceDiagram
 
 ## Network Architecture
 
+Hierarchical view of the network's structure, demonstrating how leaders occupy a privileged position in transaction processing.
+
 ```mermaid
 %% Caption: Network Architecture - Hierarchical system showing transaction flow from user through leader to block production
 graph TD
@@ -36,6 +40,8 @@ graph TD
 ```
 
 ## MEV Extraction Flow
+
+Linear visualization of how transactions are transformed through the MEV extraction process, from submission to final block inclusion.
 
 ```mermaid
 %% Caption: MEV Extraction Flow - Linear progression showing transaction transformation through MEV extraction process

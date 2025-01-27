@@ -6,6 +6,20 @@ This document traces the evolution of Solana's MEV architecture, focusing on key
 
 ## Historical Evolution
 
+This timeline shows the three distinct phases of Solana's MEV infrastructure development, from basic Solana Labs implementation through Jito's innovations to the current architecture.
+
+```mermaid
+%% Caption: Evolution Timeline - Progression from basic Solana Labs implementation through Jito introduction to current architecture
+graph TD
+    subgraph "Evolution Timeline"
+        A[Solana Labs Initial] --> B[Jito Launch]
+        B --> C[Current Architecture]
+        
+        style B fill:#ffebcc
+        style C fill:#ffe6e6
+    end
+```
+
 ### Initial Design (Solana Labs)
 - Standard Solana Labs validator implementation
 - Leader schedule publicly known in advance
@@ -24,23 +38,6 @@ This document traces the evolution of Solana's MEV architecture, focusing on key
 - Bundle processing through consensus mechanisms
 - Current extraction patterns established
 
-```mermaid
-%% Caption: Evolution Timeline - Progression from basic Solana Labs implementation through Jito introduction to current architecture
-graph TD
-    subgraph "Evolution Timeline"
-        A[Solana Labs Initial] --> B[Jito Launch]
-        B --> C[Current Architecture]
-        
-        style B fill:#ffebcc
-        style C fill:#ffe6e6
-    end
-```
-
-### Key Architectural Shifts
-1. Solana Labs: Basic validator implementation
-2. Jito Introduction: First specialized MEV infrastructure
-3. Post-March: Direct leader slot architecture
-
 ## March Architecture Changes
 
 ### Shift to Local Mempools
@@ -49,6 +46,9 @@ graph TD
 - Jito validators use MempoolStream for ordering
 
 ### Queue System
+
+Detailed view of how transactions are sorted and routed through priority levels, showing leaders' privileged peek capability at queued transactions.
+
 ```mermaid
 %% Caption: Queue System - Transaction flow through priority and regular queues with leader peek capability
 sequenceDiagram
@@ -66,6 +66,9 @@ sequenceDiagram
 ## Current Exploitation Vector
 
 ### Leader Validator Privileges
+
+Demonstrates how leader validators leverage their queue visibility to identify and capture MEV opportunities through transaction information access.
+
 ```mermaid
 %% Caption: Leader Validator Privileges - MEV opportunity flow through queue visibility and transaction information access
 graph LR

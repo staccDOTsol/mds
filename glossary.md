@@ -51,7 +51,7 @@
 
 - **Dapp Wrapper**:
   - Intermediary layer between dapp and network
-  - Examples: Jito UI, Pump, BullX, PhotonX
+  - Examples: Pump, BullX, PhotonX all have pre-knowledge of pump tx that occur thru their frontends
   - Can modify/bundle transactions before submission
 
 ### Extraction Framework
