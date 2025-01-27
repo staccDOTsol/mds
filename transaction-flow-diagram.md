@@ -4,10 +4,10 @@ This document provides detailed visualizations and analysis of Solana's transact
 
 # Solana Transaction Flow & MEV Extraction Points
 
-This diagram provides a complete view of transaction processing through the MEV extraction layer, showing parallel paths and bundle creation.
+This diagram shows how transactions are intercepted at the UI layer, reconstructed for MEV extraction, and processed through multiple validators before final block inclusion.
 
 ```mermaid
-# Caption: MEV Extraction Layer Architecture - Complete system showing parallel processing paths through extraction layer to block production
+# Caption: MEV Extraction Layer Architecture - Transaction flow from creation through extraction to block production
 graph TD
     A[Transaction Creation] --> B[MEV Extraction Points]
     

@@ -6,10 +6,10 @@ This analysis examines the jurisdictional implications of Solana's MEV infrastru
 
 ## Geographic Distribution
 
-This diagram shows the NY development center's connections to both Wall Street and key control points in the network.
+This diagram shows the NY development center's connections to control points in the network.
 
 ```mermaid
-%% Caption: Geographic Distribution - NY development hub showing financial and control point relationships
+%% Caption: Geographic Distribution - NY development hub showing control point relationships
 graph TD
     subgraph "NY Financial Hub"
         NY[NY Development Center]
@@ -19,11 +19,11 @@ graph TD
     end
     
     subgraph "Control Points"
-        VA[VA Registration]
         Global[Global Validators]
+        Dev[Development Control]
         
-        NY --> VA
         NY --> Global
+        NY --> Dev
     end
     
     style NY fill:#ffebcc
