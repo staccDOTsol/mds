@@ -8,7 +8,7 @@ This technical analysis examines security implications of Solana's MEV infrastru
 
 Comprehensive view of transaction processing layers and their security implications, showing how MEV opportunities arise from architectural design.
 
-# Caption: System Architecture Overview - Transaction layer and validator layer interaction points
+### Caption: System Architecture Overview - Transaction layer and validator layer interaction points
 ```mermaid
 graph TB
     subgraph "Transaction Layer"
@@ -41,7 +41,7 @@ graph TB
 ## Queue System Analysis
 
 Detailed sequence showing the privileged access window where leader validators can inspect and extract MEV from queued transactions.
-# Caption: Queue System Analysis - Privileged access window showing leader validator MEV extraction process
+### Caption: Queue System Analysis - Privileged access window showing leader validator MEV extraction process
 ```mermaid
 
 sequenceDiagram
@@ -71,7 +71,7 @@ sequenceDiagram
 
 Visualization of the hierarchical access control system that enables leader validators' privileged position in transaction processing.
 
-# Caption: Queue Access Pattern - Hierarchical access control showing privileged leader visibility vs limited regular validator access
+### Caption: Queue Access Pattern - Hierarchical access control showing privileged leader visibility vs limited regular validator access
 ```mermaid
 graph LR
     subgraph "Queue Access Control"
@@ -92,7 +92,7 @@ graph LR
 
 Shows how leader validators gain privileged market intelligence and trading opportunities through their position in the network.
 
-# Caption: Information Flow Analysis - Leader validator's privileged position enabling market intelligence and trading opportunities
+### Caption: Information Flow Analysis - Leader validator's privileged position enabling market intelligence and trading opportunities
 ```mermaid
 graph TD
     subgraph "Information Asymmetry"
@@ -138,7 +138,7 @@ Demonstrates the structural advantages leaders have in accessing and acting on t
 
 Illustrates the critical security components requiring mitigation to address MEV-related vulnerabilities in the current architecture.
 
-# Caption: Security Considerations Framework - Critical system components requiring security mitigation
+### Caption: Security Considerations Framework - Critical system components requiring security mitigation
 ```mermaid
 graph TB
     subgraph "Security Considerations"
