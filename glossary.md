@@ -10,15 +10,15 @@
   - Responsible for block production in assigned slots
 
 ### Infrastructure Providers
-- **Solana Labs**: Original core protocol developer
+- **Protocol Developer**: Original core protocol developer
   - Created initial validator implementation
   - Maintains core protocol
   - Provides reference validator client
 
-- **Jito Labs**: Specialized MEV infrastructure provider
-  - Introduced MempoolStream (pre-March 2023)
-  - Developed bundle processing system
-  - Created specialized validator client
+- **MEV Infrastructure**: Specialized MEV infrastructure providers
+  - Introduced transaction streaming
+  - Developed bundle processing systems
+  - Created specialized validator clients
 
 ### Network Components
 - **RPC (Remote Procedure Call)**: 
@@ -33,7 +33,7 @@
 
 ### Transaction Processing
 - **Mempool**: 
-  - Historical: Jito's global transaction pool (pre-March 2023)
+  - Historical: Global transaction pool (pre-March 2023)
   - Current: Per-validator transaction queues
   - Holds pending transactions
 
@@ -51,7 +51,7 @@
 
 - **Dapp Wrapper**:
   - Intermediary layer between dapp and network
-  - Examples: Pump, BullX, PhotonX all have pre-knowledge of pump tx that occur thru their frontends
+  - Multiple implementations exist
   - Can modify/bundle transactions before submission
 
 ### Extraction Framework
