@@ -76,7 +76,6 @@ From analysis of 198 out of 350 total contributors:
 ## Document Relationships
 
 ```mermaid
-# Caption: Document Relationship Map - Interconnections between analysis documents showing information flow and dependencies
 graph TD
     A[jurisdiction-analysis.md] --> B[solana-mev-analysis.md]
     B --> C[solana-mev-evolution.md]
@@ -88,6 +87,8 @@ graph TD
     style A fill:#ffebcc
     style B fill:#ffe6e6
     style F fill:#ffebcc
+
+%% Caption: Document Relationship Map - Interconnections between analysis documents showing information flow and dependencies
 ```
 
 Each document provides a specific perspective on Solana's MEV ecosystem, from technical implementation to regulatory implications. Together, they form a comprehensive analysis of the system's architecture, control points, and jurisdictional considerations. 
