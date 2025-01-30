@@ -4,7 +4,7 @@
 
 This analysis examines sandwich attacks being executed on PumpDotFun (program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P) in January 2025. A critical context: Jito's public mempool has been turned OFF since March 2024, which means these sandwich attacks are not coming from public MEV searchers, but rather from privileged actors with special access to transaction information.
 
-Since April 2024, PumpDotFun's revenues have increased dramatically, now reaching record-breaking days of 15.5M in revenues per day. This timing correlates with the shift in how sandwich attacks are being executed.
+Since April 2024, PumpDotFun's revenues have increased dramatically from sub-$10k/day, now reaching record-breaking days of 15.5M in revenues per day. This timing correlates with the shift in how sandwich attacks are being executed.
 
 ## Evidence from 2025-01-30T02:27Z
 
@@ -148,7 +148,7 @@ This analysis demonstrates a concerning reality:
 3. These actors have insider access to transaction information
 4. Multiple accounts are actively exploiting this privileged position
 5. Significant profits are being extracted (~$22.5M annually)
-6. PumpDotFun's revenues have increased dramatically (up to 15.5M/day) since April 2024
+6. PumpDotFun's revenues have increased dramatically (from sub-$10k/day to $15.5M/day) since April 2024
 
 This represents a significant shift from public MEV to privileged insider activity. The correlation between Jito's mempool shutdown, PumpDotFun's revenue surge, and continued sandwich attacks suggests a concentration of MEV extraction among privileged actors rather than public searchers.
 
