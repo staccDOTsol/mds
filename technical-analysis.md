@@ -1,0 +1,160 @@
+# Technical Analysis of Jito-Enabled Sandwich Attacks on PumpDotFun
+
+## Overview
+
+This analysis examines sandwich attacks being executed on PumpDotFun (program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P) in January 2025. A critical context: Jito's public mempool has been turned OFF since March 2024, which means these sandwich attacks are not coming from public MEV searchers, but rather from privileged actors with special access to transaction information.
+
+Since April 2024, PumpDotFun's revenues have increased dramatically, now reaching record-breaking days of 15.5M in revenues per day. This timing correlates with the shift in how sandwich attacks are being executed.
+
+## Evidence from 2025-01-30T02:27Z
+
+### Profit Sequence Analysis (2025-01-30T02:27Z)
+Within a less-than-60-second window, we observed systematic profit extraction in sequential bundles. Looking at just one minute, we caught a sequence of more than five sandwich attacks, for example:
+
+1. Bundle d8133f...6a6384: $2.03 profit
+2. Bundle 042901...1cf497: $16.22 profit
+3. Bundle 00b0f9...176f87: $4.83 profit
+4. Bundle 2f3785...0eef37: $1.71 profit
+5. Bundle 79de55...f29ba0: $1.31 profit
+
+Total profit shown in example sequence: $26.10
+
+Note: This analysis only captures sandwich attacks from traders using Jito's bundle service. Additional MEV extraction may occur through:
+- Private validator networks running pre-March 2024 Jito mempool forks
+- Validators with sufficient stake weight to occasionally lead block production
+- Other private transaction routing mechanisms
+
+### Detection Methodology
+The system identifies sandwich attacks by:
+- Monitoring Jito bundles with 3+ transactions
+- Tracking SOL balance changes for accounts
+- Identifying patterns where an account:
+  1. Spends SOL (buy)
+  2. Gains SOL (price impact)
+  3. Spends SOL again (sell)
+- Calculating profit by comparing initial and final balances
+
+### Key Findings
+
+The sequence demonstrates systematic sandwich attacks:
+
+1. Account Activity:
+- Primary account GzhY5g...Ufz5Es executing multiple sandwiches
+- Total SOL movement: ~11 SOL in under a minute
+- Consistent profit extraction pattern across bundles
+
+2. Bundle Structure:
+- Each bundle contains exactly 3 transactions
+- Consistent pattern: buy → target → sell
+- Validator tips optimized for inclusion (~0.002-0.025 SOL)
+
+3. Profitability:
+- Average profit per sandwich: ~0.07 SOL
+- Projected annual profit: ~95,000 SOL ($22.5M at current prices)
+- Most profitable single sandwich: 1.48 SOL by EYxDYeB3mWtiaybpiZKMqGGFZrUpPin6WmcAUD9HdkXR
+
+### 4. Attack Flow
+
+```mermaid
+graph TD
+    A[User Transaction] -->|1. Submitted| B[Transaction Pool]
+    B -->|2. Seen by| C[Privileged Actor]
+    C -->|3a. Front-run| D[Buy Transaction]
+    C -->|3b. Include| E[User Transaction]
+    C -->|3c. Back-run| F[Sell Transaction]
+    D --> G[Jito Bundle]
+    E --> G
+    F --> G
+    G -->|4. Execute| H[Blockchain]
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:4px
+    style G fill:#bfb,stroke:#333,stroke-width:4px
+```
+
+### 5. Profit Distribution
+
+```mermaid
+pie
+    title "Profit Distribution by Actor (SOL)"
+    "EYxDYeB3...dkXR" : 2.2252
+    "59fqwo...AB7X2" : 0.5754
+    "AtTjQK...aa1oy" : 0.2470
+    "7tMoEa...zaz8i" : 0.2455
+    "BUNsy7...abRr" : 0.0883
+    "4mbZVu...in7Ti" : 0.0355
+```
+
+### 6. Technical Implementation
+
+The frontrunning is enabled by several key mechanisms:
+
+1. Jito Bundle Submission:
+```javascript
+// Attackers submit bundles with structured transaction ordering
+const bundle = {
+  transactions: [buyTx, targetTx, sellTx],
+  ...
+}
+```
+
+2. Balance Tracking:
+```javascript
+// Monitor SOL balance changes
+const preBalance = tx.meta.preBalances[accountIdx];
+const postBalance = tx.meta.postBalances[accountIdx];
+const balanceChange = postBalance - preBalance;
+```
+
+3. Profit Calculation:
+```javascript
+// Calculate total profit from sandwich
+const totalProfit = (postBalance - spenderData.initialBalance) / 1e9;
+```
+
+### 5. Privileged Frontrunning Mechanism
+
+The attack requires privileged access to transaction information that is only available to specific entities:
+
+1. Transaction Requirements for Sandwich:
+   - Signature
+   - Blockhash
+   - Message composition
+
+2. Entities with Access:
+   - PumpDotFun UI operators
+   - Jito
+   - Solana Labs
+   - LEADER validator operators
+
+3. Attack Execution:
+   - Privileged actor sees incoming transaction details
+   - Crafts sandwich transactions with exact knowledge of target
+   - Ensures execution order through Jito bundle service
+   - Extracts profit from price impact
+
+This is notably different from public MEV searching, as it requires insider access to transaction information that has been private since Jito's mempool shutdown in March 2024.
+
+## Impact
+
+This analysis demonstrates a concerning reality:
+
+1. PumpDotFun's design enables predictable price impacts
+2. Only privileged actors can execute these attacks since March 2024
+3. These actors have insider access to transaction information
+4. Multiple accounts are actively exploiting this privileged position
+5. Significant profits are being extracted (~$22.5M annually)
+6. PumpDotFun's revenues have increased dramatically (up to 15.5M/day) since April 2024
+
+This represents a significant shift from public MEV to privileged insider activity. The correlation between Jito's mempool shutdown, PumpDotFun's revenue surge, and continued sandwich attacks suggests a concentration of MEV extraction among privileged actors rather than public searchers.
+
+### Extrapolated Impact (16-minute Sample)
+
+Based on a brief 16-minute analysis window, the potential scale of MEV extraction through Jito bundles alone is staggering:
+
+Projected Profits (Jito Bundles Only):
+- Daily: 261.49 SOL ($61,795)
+- Weekly: 1,830.41 SOL ($432,563)
+- Monthly: 7,844.62 SOL ($1,853,841)
+- Yearly: 95,442.92 SOL ($22,555,070)
+
+Note: These projections are based on a very small sample size and only capture MEV extracted through Jito bundles. The total MEV extraction across all vectors (private validator networks, stake-weighted validators, etc.) is likely significantly higher.
