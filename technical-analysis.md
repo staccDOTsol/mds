@@ -172,14 +172,6 @@ https://explorer.jito.wtf/bundle/042901f6ce7e4488375bd18a35427cfaa4feb6f0e7f43be
 
 https://explorer.jito.wtf/bundle/00b0f90fb7d17a688ba8190f51c14568bb7f0efc6c27fe40946a1c8742176f87
 
-https://explorer.jito.wtf/bundle/a83d882f7c6128ed046e1ce464d4d8090638d7f7ec5c12229e8dbc5563bc93b1
-
-https://explorer.jito.wtf/bundle/f47a208a3fe48a38067d077fa19f7a780bae7687c618753fd65e9ccc1eefdc0a
-
-https://explorer.jito.wtf/bundle/8fba0904b1233d765f017698dbd9b751b50492ef786da2bb328b1663154ac81d
-
-https://explorer.jito.wtf/bundle/ecda23f7e334801140428808053dcfd2a4c4d75d6be5f02553345f711d134d3c
-
 https://explorer.jito.wtf/bundle/2f3785e2632ae7057725b25b72b65cff2ab3a8fc5ba8bd69abd1ea79590eef37
 
 https://explorer.jito.wtf/bundle/79de55af8b53b797b3c64ab9de126aa93430c7c221ad8a0a339962e380f29ba0
