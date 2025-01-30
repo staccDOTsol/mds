@@ -20,7 +20,7 @@ Answer: It's a fugazi. PumpDotFun's userbase is driven by Jito's need to continu
 
 Do all these sandwich tx on pump pay pumpfun fees?
 
-1. yes, and jito.
+1. yes, and jito, and solana.
 
 What is the correlation between jito changes and pump revenue changing?
 
