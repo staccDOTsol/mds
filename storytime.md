@@ -31,3 +31,5 @@ Does Pump ever custody user funds?
 How could you obfuscate the flow of funds using pump? Serving as a mixer in a way. 
 
 How would you test at stage of knowledge mev has - platform ui vs otherwise?
+
+Can a developer stop mev bots from wrecking their platform users? Is that possible?
