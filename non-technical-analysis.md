@@ -135,7 +135,7 @@ Estimated Profits:
 
 ## Note
 
-Anyone who has enough incentive, motive and capital can execute these attacks cheaper, more privately, and at much larger scale should they not use the Jito bundle service and instead make a copy of the Jito mempool. Notably, we would not have record of these bundles in the below explorer - they would be private.
+Anyone who has enough incentive, motive and capital can execute these attacks cheaper, more privately, and at much larger scale should they not use the Jito bundle service and instead make a copy of the Jito mempool or run their own very well-funded Solana validator. Notably, we would not have record of these bundles in the below explorer - they would be private.
 
 ## References
 
