@@ -25,3 +25,9 @@ Do all these sandwich tx on pump pay pumpfun fees?
 What is the correlation between jito changes and pump revenue changing?
 
 1. pump was onchain and in operation after dozens of failed Baton projects for months before March, when mempool was closed. In April, their revenue jumped to >10k/day, and they were purportedly both confused and surprised.
+
+Does Pump ever custody user funds? 
+
+How could you obfuscate the flow of funds using pump? Serving as a mixer in a way. 
+
+How would you test at stage of knowledge mev has - platform ui vs otherwise?
