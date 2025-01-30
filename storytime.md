@@ -24,4 +24,4 @@ Do all these sandwich tx on pump pay pumpfun fees?
 
 What is the correlation between jito changes and pump revenue changing?
 
-1. pump was onchain and in operation after dozens of failed Baton projects for months before March, when mempool was closed. In April, their revenue jumped to >10k/month, and they were both confused and surprised.
+1. pump was onchain and in operation after dozens of failed Baton projects for months before March, when mempool was closed. In April, their revenue jumped to >10k/month, and they were purportedly both confused and surprised.
