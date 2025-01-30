@@ -33,7 +33,7 @@ The system identifies sandwich attacks by:
   2. Target spends SOL (buy, exploited)
   3. Attacker gains SOL (sell)
 - Calculating profit by comparing initial and final balances
-- Check [analyze-sandwiches.js](analyze-sandwiches.js) for the code that generated the above data
+- Check [analyze-sandwiches.js](analyze-sandwiches.js) for the code that generated the results
 
 ### Key Findings
 
