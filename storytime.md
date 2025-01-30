@@ -20,13 +20,11 @@ Answer: It's a fugazi. PumpDotFun's userbase is driven by Jito's need to continu
 
 Do all these sandwich tx on pump pay pumpfun fees?
 
-1. yes, and jito.
+yes, and jito in the form of 'tips' to participate in the auction for who gets to reorder a given tx or set of txs, and solana in the form of fees + priority fees.
 
 What is the correlation between jito changes and pump revenue changing?
 
-1. pump was onchain and in operation after dozens of failed Baton projects for months before March, when mempool was closed. In April, their revenue jumped to >10k/month, and they were both confused and surprised.
-
-Does Pump ever custody user funds?
+pump was onchain and in operation after dozens of failed Baton projects for months before March, when mempool was closed. In April, their revenue jumped to >10k/day, and they were purportedly both confused and surprised.
 
 1. Yes, they hold every bit of solana deposited with 'buy' txs that are in a bonding curve that has not been sent to Raydium AMM yet. I counted oct 24 as 215110 sol, again on Nov 29 as 279334 sol, and alon claims after 1yr more than 1 billion locked on pump. [1bn](https://x.com/a1lon9/status/1881074065860919330)
 
