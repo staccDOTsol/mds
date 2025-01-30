@@ -20,7 +20,7 @@ Answer: It's a fugazi. PumpDotFun's userbase is driven by Jito's need to continu
 
 Do all these sandwich tx on pump pay pumpfun fees?
 
-1. yes, and jito, and solana.
+1. yes, and jito in the form of 'tips' to participate in the auction for who gets to reorder a given tx or set of txs, and solana in the form of fees + priority fees.
 
 What is the correlation between jito changes and pump revenue changing?
 
