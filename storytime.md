@@ -47,3 +47,106 @@ When I move that 2nd bot off of their rpc and onto my validator, and run it for 
 
 Can a developer stop mev bots from wrecking their platform users? Is that possible?
 Yes. There are two refernece implementations of this that I am aware of: ellipsis-labs/plasma and jupiter's 'z' mode, which were made avaialble in november and december of 2024. Anyone worth their weight in salt could have figured this out long before the reference implementations, however pump continues to ignore the audited and free and opensource solutions made available to the public for people to implement consumer protections and safeguarding.
+
+
+plain language:
+
+# The PumpDotFun Problem: A Deep Dive into Insider Trading
+
+## The Timeline
+
+- Before March 2024: PumpDotFun operates normally, one of many Baton Corp projects
+- March 2024: Jito closes public access to their transaction system
+- April 2024: PumpDotFun's revenue suddenly jumps to over $10,000/day
+- October 2024: 215,110 SOL locked in platform
+- November 2024: 279,334 SOL locked in platform
+- January 2025: Over 1 billion SOL claimed to be locked on platform
+
+## Who Gets to See Your Trade First?
+
+When you make a trade on PumpDotFun, your transaction follows this path:
+
+```
+Transaction Access Order:
+1. PumpDotFun UI (Baton Corp) -----> First to see
+2. PumpDotFun Backend (Baton Corp)
+3. RPC Provider
+4. Lead Validator
+```
+
+This means several parties can see and act on your trade before it happens:
+- PumpDotFun's operators
+- Their backend service providers
+- The RPC (transaction relay) services
+- Validator operators who process transactions
+
+## The Suspicious Signs
+
+1. **Unusual User Patterns**
+   - 30% of users only make one transaction
+   - Much larger userbase than competitors with better features:
+     * Moonshot (better UI/UX)
+     * GoFundMeme (better UI/UX, more altruistic)
+     * StrataProtocol (first to market)
+
+2. **Revenue Anomalies**
+   - Months of low activity pre-March 2024
+   - Sudden jump to >$10k/day in April 2024
+   - Company executives reportedly surprised by growth
+   - Posted jobs seeking data scientists to explain user behavior
+
+3. **Triple Fee Structure**
+   Every sandwich attack pays:
+   - PumpDotFun fees
+   - Jito "tips" for transaction ordering
+   - Solana network fees
+
+## How the Manipulation Works
+
+```
+Example Attack:
+Wallet A: Buy token with small amount
+Wallet B: Buy same token with large amount
+Wallet A: Sell token -> Get more SOL back
+```
+
+This creates artificial volume while moving funds between wallets.
+
+## Could This Be Prevented?
+
+Yes, solutions exist:
+- Ellipsis Labs' Plasma (November 2024)
+- Jupiter's "Z" mode (December 2024)
+
+These are:
+- Free
+- Open source
+- Audited
+- Available to implement
+
+Yet PumpDotFun hasn't adopted any consumer protections.
+
+## The Numbers Don't Lie
+
+Our 16-minute analysis found:
+- 48 sandwich attacks
+- $26.10 profit in just one minute
+- Projected annual profit: $22.5M (from visible attacks only)
+
+```
+Daily Profit Breakdown:
+----------------------
+PumpDotFun Fees:   ████
+Jito Tips:         ███
+Network Fees:      ██
+Attacker Profit:   ████████████
+```
+
+## Why This Matters
+
+1. **For Users**: You're paying more than necessary on trades
+2. **For Markets**: Creates artificial volume and price movements
+3. **For Trust**: Shows systematic exploitation by insiders
+4. **For Fairness**: Demonstrates failure to protect users despite available solutions
+
+The evidence suggests PumpDotFun's growth isn't organic - it's driven by insider trading and artificial volume, with users paying the price through higher fees and worse trade execution.
