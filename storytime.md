@@ -1,6 +1,6 @@
 What does it mean to be a privileged actor and thus get early access to transactions?
 
-If I was the party who had insider knowledge to a given complete and user-signed solana transaction before that transaction is broadcast to the network, I would be able to send that transaction before their preferred method of broadcast should I want to. I can't modify THEIR transaciton but I do know everything they're doing inside it, and so I can craft transactions to go before and/or after it to exploit their behavior. If I am a lead validator or I avail of the jito bundler service then I can ensure that 1. all transactions happen, or they don't and 2. the exact ordering of these transactions.
+If I was the party who had insider knowledge to a given complete and user-signed solana transaction before that transaction is broadcast to the network, I would be able to send that transaction before their preferred method of broadcast should I want to. I can't modify THEIR transaciton but I do know everything they're doing inside it, and so I can craft transactions to go before and/or after it to exploit their behavior. If I am a lead validator or I avail of the jito bundler service then I can ensure that 1. all transactions happen, or they don't (meaning if any fail, they all fail, so I can ensure my own profitability should I need/want) and 2. the exact ordering of these transactions.
 
 Explain who first has access to transactions from pump? It would be anyone inside pump? How?
 
