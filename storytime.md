@@ -58,9 +58,9 @@ plain language:
 - Before March 2024: PumpDotFun operates normally, one of many Baton Corp projects
 - March 2024: Jito closes public access to their transaction system
 - April 2024: PumpDotFun's revenue suddenly jumps to over $10,000/day
-- October 2024: 215,110 SOL locked in platform
-- November 2024: 279,334 SOL locked in platform
-- January 2025: Over 1 billion SOL claimed to be locked on platform
+- October 2024: $64m USD locked in platform
+- November 2024: $90m USD locked in platform
+- January 2025: Over 1 billion USD claimed to be locked on platform
 
 ## Who Gets to See Your Trade First?
 
