@@ -127,10 +127,10 @@ The attack requires privileged access to transaction information that is only av
    - Message composition
 
 2. Entities with Access:
-   - PumpDotFun UI operators
-   - Jito
-   - Solana Labs
-   - LEADER validator operators
+   - PumpDotFun's UI operators, and those running alternative UI services
+   - Jito's validator operators
+   - Solana Labs validator operators
+   - Certain validator operators with the largest stakeweight
 
 3. Attack Execution:
    - Privileged actor sees incoming transaction details
