@@ -6,15 +6,19 @@ PumpDotFun, a trading platform on Solana, is experiencing systematic frontrunnin
 
 ## How Does It Work?
 
-```mermaid
-graph LR
-    A[Regular Trader] -->|Places Order| B[Trading Platform]
-    C[Insider] -->|1. Sees Order| B
-    C -->|2. Buys First| D[Market]
-    A -->|3. Pays Higher Price| D
-    C -->|4. Sells for Profit| D
-    style C fill:#f96,stroke:#333,stroke-width:4px
-    style A fill:#adf,stroke:#333,stroke-width:2px
+```
+[Regular Trader] ----Places Order----> [Trading Platform]
+                                           |
+                                           | 1. Sees Order
+                                           v
+[Insider] ----2. Buys First----> [Market]
+                                    ^
+                                    | 3. Pays Higher Price
+                                    |
+[Regular Trader] ------------------/
+                                    |
+                                    | 4. Sells for Profit
+[Insider] <----------------------/
 ```
 
 To understand it simply, imagine you're in line at a coffee shop:
@@ -30,9 +34,9 @@ To understand it simply, imagine you're in line at a coffee shop:
 This is essentially what's happening on PumpDotFun, but with a critical detail:
 
 - Only certain insiders can see your transaction before it happens:
-  - PumpDotFun's UI operators
-  - Jito's team
-  - Solana Labs
+  - PumpDotFun's UI operators, and those running alternative UI services
+  - Jito's validator operators
+  - Solana Labs validator operators
   - Certain validator operators with the largest stakeweight
 - These insiders can ensure their transactions happen before and after yours
 - This guarantees them a profit while making your trade more expensive
@@ -94,25 +98,33 @@ The data suggests this is not just about market efficiency - it's about privileg
 
 ## Scale of Impact
 
-```mermaid
-graph TD
-    subgraph "Projected Annual MEV Extraction"
-        A[Daily: $61,795] -->|x7| B[Weekly: $432,563]
-        B -->|x4.3| C[Monthly: $1.85M]
-        C -->|x12| D[Yearly: $22.55M]
-    end
-    style D fill:#f96,stroke:#333,stroke-width:4px
+```
+Projected Annual MEV Extraction:
+
+Daily: $61,795
+    |
+    | x7
+    v
+Weekly: $432,563
+    |
+    | x4.3
+    v
+Monthly: $1.85M
+    |
+    | x12
+    v
+Yearly: $22.55M
 ```
 
 Even from a brief 16-minute snapshot of activity, the potential scale of this insider trading is staggering. Looking at just the trades we can see through Jito's bundle service:
 
-```mermaid
-pie
-    title "Sandwich Attack Profits by Actor"
-    "Main Attacker" : 65.1
-    "Second Attacker" : 16.8
-    "Third Attacker" : 7.2
-    "Others" : 10.9
+```
+Sandwich Attack Profits:
+-----------------------
+Main Attacker:    65.1%  ████████████████████████████
+Second Attacker:  16.8%  ███████
+Third Attacker:    7.2%  ███
+Others:           10.9%  ████
 ```
 
 Estimated Profits:
@@ -121,8 +133,3 @@ Estimated Profits:
 - Every Month: $1,853,841 (7,844.62 SOL)
 - Every Year: $22,555,070 (95,442.92 SOL)
 
-Remember: This is likely just the tip of the iceberg. These numbers:
-- Only cover trades we can see through Jito bundles
-- Are based on a very short time window
-- Don't include profits made through other methods
-- Suggest the total scale of frontrunning could be much larger

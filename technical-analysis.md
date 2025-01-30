@@ -55,33 +55,38 @@ The sequence demonstrates systematic sandwich attacks:
 
 ### 4. Attack Flow
 
-```mermaid
-graph TD
-    A[User Transaction] -->|1. Submitted| B[Transaction Pool]
-    B -->|2. Seen by| C[Privileged Actor]
-    C -->|3a. Front-run| D[Buy Transaction]
-    C -->|3b. Include| E[User Transaction]
-    C -->|3c. Back-run| F[Sell Transaction]
-    D --> G[Jito Bundle]
-    E --> G
-    F --> G
-    G -->|4. Execute| H[Blockchain]
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:4px
-    style G fill:#bfb,stroke:#333,stroke-width:4px
+```
+Attack Flow:
+-----------
+[User Transaction] ----1. Submitted----> [Transaction Pool]
+                                              |
+                                              | 2. Seen by
+                                              v
+                                     [Privileged Actor]
+                                              |
+                    /-------------------/-----/
+                    |                   |     |
+                    v                   v     v
+             [Buy Transaction]  [User Tx]  [Sell Tx]
+                    |                |        |
+                    v                v        v
+                    \------->[Jito Bundle]<---/
+                                    |
+                                    v
+                              [Blockchain]
 ```
 
 ### 5. Profit Distribution
 
-```mermaid
-pie
-    title "Profit Distribution by Actor (SOL)"
-    "EYxDYeB3...dkXR" : 2.2252
-    "59fqwo...AB7X2" : 0.5754
-    "AtTjQK...aa1oy" : 0.2470
-    "7tMoEa...zaz8i" : 0.2455
-    "BUNsy7...abRr" : 0.0883
-    "4mbZVu...in7Ti" : 0.0355
+```
+Profit Distribution (SOL):
+------------------------
+EYxDYeB3...dkXR: 2.2252  ████████████████████████████
+59fqwo...AB7X2:  0.5754  ███████
+AtTjQK...aa1oy:  0.2470  ███
+7tMoEa...zaz8i:  0.2455  ███
+BUNsy7...abRr:   0.0883  █
+4mbZVu...in7Ti:  0.0355  █
 ```
 
 ### 6. Technical Implementation
@@ -157,4 +162,4 @@ Projected Profits (Jito Bundles Only):
 - Monthly: 7,844.62 SOL ($1,853,841)
 - Yearly: 95,442.92 SOL ($22,555,070)
 
-Note: These projections are based on a very small sample size and only capture MEV extracted through Jito bundles. The total MEV extraction across all vectors (private validator networks, stake-weighted validators, etc.) is likely significantly higher.
+Note: These projections are based on a very small sample size and only capture MEV extracted through Jito bundles. The total MEV extraction across all vectors (private validator networks, stake-weighted validators, etc.) is likely magntitudes higher.
