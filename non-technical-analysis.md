@@ -133,6 +133,9 @@ Estimated Profits:
 - Every Month: $1,853,841 (7,844.62 SOL)
 - Every Year: $22,555,070 (95,442.92 SOL)
 
+## Note
+
+Anyone who has enough incentive, motive and capital can execute these attacks cheaper, more privately, and at much larger scale should they not use the Jito bundle service and instead fork the Jito mempool.
 
 ## References
 
