@@ -50,103 +50,90 @@ Yes. There are two refernece implementations of this that I am aware of: ellipsi
 
 
 plain language:
+# Key Questions & Answers About PumpDotFun's Issues
 
-# The PumpDotFun Problem: A Deep Dive into Insider Trading
+## What makes someone a "privileged actor" with early transaction access?
 
-## The Timeline
+A privileged actor can:
+- See transactions before they're broadcast to the network
+- Can't modify other people's transactions, but can see exactly what they're doing
+- Can create their own transactions to go before and after others
+- If they're a lead validator or use Jito's bundle service, they can control:
+  1. Whether all transactions happen or none do
+  2. The exact order of transactions
 
-- Before March 2024: PumpDotFun operates normally, one of many Baton Corp projects
-- March 2024: Jito closes public access to their transaction system
-- April 2024: PumpDotFun's revenue suddenly jumps to over $10,000/day
-- October 2024: $64m USD locked in platform
-- November 2024: $90m USD locked in platform
-- January 2025: Over 1 billion USD claimed to be locked on platform
+## Who sees PumpDotFun transactions first?
 
-## Who Gets to See Your Trade First?
+The order of access is:
+1. PumpDotFun's UI team (Baton Corp)
+2. PumpDotFun's backend team (Baton Corp)
+3. RPC providers (transaction relay services)
+4. Lead Validators
 
-When you make a trade on PumpDotFun, your transaction follows this path:
+Note: On Solana, there are two types of nodes:
+- Validators: Vote on network consensus, can become leaders if they stake enough
+- RPCs: Just relay transactions, don't participate in consensus
 
-```
-Transaction Access Order:
-1. PumpDotFun UI (Baton Corp) -----> First to see
-2. PumpDotFun Backend (Baton Corp)
-3. RPC Provider
-4. Lead Validator
-```
+## What evidence shows volume manipulation?
 
-This means several parties can see and act on your trade before it happens:
-- PumpDotFun's operators
-- Their backend service providers
-- The RPC (transaction relay) services
-- Validator operators who process transactions
+1. Unusual User Patterns:
+   - 30% are one-time users
+   - Much bigger than competitors with better features
+   - Outperforms earlier platforms like StrataProtocol
 
-## The Suspicious Signs
+2. Company Behavior:
+   - Executives claimed not to understand their own growth
+   - Hired data scientists to explain user behavior
+   - Platform success makes no market sense
 
-1. **Unusual User Patterns**
-   - 30% of users only make one transaction
-   - Much larger userbase than competitors with better features:
-     * Moonshot (better UI/UX)
-     * GoFundMeme (better UI/UX, more altruistic)
-     * StrataProtocol (first to market)
+3. Timing:
+   - Platform struggled for months
+   - Suddenly exploded after Jito's changes
+   - Growth coincides with Jito needing new revenue
 
-2. **Revenue Anomalies**
-   - Months of low activity pre-March 2024
-   - Sudden jump to >$10k/day in April 2024
-   - Company executives reportedly surprised by growth
-   - Posted jobs seeking data scientists to explain user behavior
+## Who gets paid from these sandwich attacks?
 
-3. **Triple Fee Structure**
-   Every sandwich attack pays:
-   - PumpDotFun fees
-   - Jito "tips" for transaction ordering
-   - Solana network fees
+Every sandwich attack pays three parties:
+1. PumpDotFun (platform fees)
+2. Jito (tips for transaction ordering)
+3. Solana (network fees + priority fees)
 
-## How the Manipulation Works
+## How do Jito's changes relate to PumpDotFun's growth?
 
-```
-Example Attack:
-Wallet A: Buy token with small amount
-Wallet B: Buy same token with large amount
-Wallet A: Sell token -> Get more SOL back
-```
+Clear timeline:
+1. PumpDotFun struggles for months
+2. March 2024: Jito closes public mempool
+3. April 2024: PumpDotFun revenue jumps to >$10k/day
+4. Growth continues to 1 billion+ SOL locked
+5. Executives claim to be "confused and surprised"
 
-This creates artificial volume while moving funds between wallets.
+## How could someone use PumpDotFun to hide money flows?
 
-## Could This Be Prevented?
+Simple three-step process:
+1. Buy token with "dirty" funds from one wallet
+2. Buy same token with clean funds from another wallet
+3. Sell from first wallet, getting "clean" funds back
 
-Yes, solutions exist:
-- Ellipsis Labs' Plasma (November 2024)
-- Jupiter's "Z" mode (December 2024)
+## How would you prove where the manipulation happens?
 
-These are:
-- Free
+Scientific test setup:
+1. Control: Direct trades through own validator
+2. Test Groups:
+   - Browser bot using PumpDotFun UI
+   - Bot using PumpDotFun's RPCs
+   - Bot using only blockchain program
+3. Compare results when:
+   - Your validator is leader
+   - Others are leaders
+4. If PumpDotFun bots lose more money, it proves platform-level manipulation
+
+## Can platforms prevent these attacks?
+
+Yes, solutions exist and are:
+- Free (Ellipsis Labs' Plasma, Jupiter's Z-mode)
 - Open source
 - Audited
-- Available to implement
+- Available since late 2024
 
-Yet PumpDotFun hasn't adopted any consumer protections.
+PumpDotFun chooses not to implement these protections.
 
-## The Numbers Don't Lie
-
-Our 16-minute analysis found:
-- 48 sandwich attacks
-- $26.10 profit in just one minute
-- Projected annual profit: $22.5M (from visible attacks only)
-
-```
-Daily Profit Breakdown:
-----------------------
-PumpDotFun Fees:   ████
-Jito Tips:         ███
-Network Fees:      ██
-Attacker Profit:   ████████████
-```
-
-## Why This Matters
-
-1. **For Users**: You're paying more than necessary on trades
-2. **For Markets**: Creates artificial volume and price movements
-3. **For Trust**: Shows systematic exploitation by insiders
-4. **For Fairness**: Demonstrates failure to protect users despite available solutions
-
-The evidence suggests PumpDotFun's growth isn't organic - it's driven by insider trading and artificial volume, with users paying the price through higher fees and worse trade execution.
