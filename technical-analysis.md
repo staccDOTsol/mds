@@ -29,9 +29,9 @@ The system identifies sandwich attacks by:
 - Monitoring Jito bundles with 3+ transactions
 - Tracking SOL balance changes for accounts
 - Identifying patterns where an account:
-  1. Spends SOL (buy)
-  2. Gains SOL (price impact)
-  3. Spends SOL again (sell)
+  1. Attacker spends SOL (buy, price impact)
+  2. Target spends SOL (buy, exploited)
+  3. Attacker gains SOL (sell)
 - Calculating profit by comparing initial and final balances
 
 ### Key Findings
