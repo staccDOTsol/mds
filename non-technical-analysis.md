@@ -135,7 +135,7 @@ Estimated Profits:
 
 ## Note
 
-Anyone who has enough incentive, motive and capital can execute these attacks cheaper, more privately, and at much larger scale should they not use the Jito bundle service and instead fork the Jito mempool.
+Anyone who has enough incentive, motive and capital can execute these attacks cheaper, more privately, and at much larger scale should they not use the Jito bundle service and instead make a copy of the Jito mempool. Notably, we would not have record of these bundles in the below explorer - they would be private.
 
 ## References
 
