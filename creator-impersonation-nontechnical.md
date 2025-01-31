@@ -2,11 +2,11 @@
 
 ## What's Happening?
 
-A sophisticated group is exploiting PumpDotFun's token creation system to impersonate legitimate token creators. In this particular case, they successfully extracted about 20 SOL through this scheme and continue to create new impersonation attempts, including tokens like "Burwick Popper Wolf" after "Dog Shit Going Nowhere" was created.
+A sophisticated group is exploiting PumpDotFun's token creation system to impersonate legitimate token creators. In a particularly brazen example, they targeted a token created by the Burwick Law team during their legal investigation, successfully extracting about 20 SOL through this scheme. They then created a mockingly-named token "Burwick Popper Wolf" - directly referencing the legal team investigating them.
 
 ## Essentially...?
 
-A rational and good actor comes along, uses pumpdotfun, creates a token, but doesn't buy any and nobody else does either, and then the exploiter B9sa...473K steps in, B9sa...473K pays the fee to activate the token, B9sa...473K gets recorded as the creator on the blockchain, and B9sa...473K can now pretend they were the original creator. They then use this position to create new more topical tokens when the news cycle focues on the original token.
+The Burwick Law team, while preparing their legal case, created a token on pumpdotfun but didn't activate it. The exploiter (B9sa...473K) then stepped in, paid the fee to activate Burwick Law's token, got recorded as the creator on the blockchain, and used this position to create a derivative token mocking the legal team. This demonstrates not just exploitation, but deliberate targeting of the investigating legal team.
 
 ## How Does It Work?
 
@@ -23,19 +23,6 @@ Imagine this scenario:
    - Can now pretend they were the original creator
 
 It's like writing a book but not publishing it, and then someone else publishes it under their name - and all official records show them as the author because they paid the publishing fee.
-
-These are the original tokens' transactions by the perpetrator:
-
-<img width="1425" alt="image" src="https://github.com/user-attachments/assets/b68881d9-5be6-4483-820b-d41af9616968" />
-
-this is them paying the fee to 'create' the token in fact on the blockchain:
-
-<img width="1425" alt="image" src="https://github.com/user-attachments/assets/2cd0da49-2bed-474a-a0fb-9a2a36e69b25" />
-
-
-https://solscan.io/tx/2xZAAFQQQpAztX15ADDGncPNoqwhdxHXWNDY13AmbFTzqgCxp19j5pNU5ZGb8bStpyKZ5wzvtrU1Mav7rqyZJWkB
-
-the token now has, for all intents and purposes, absolutely nothing to do with the original creator - other than bearing their stamp of creation on the pumpdotfun interface, incorrectly. This is a blatant disregard for how provenence as a blockchain concept works, and at the very least should be treated as a critical security concern and fixed immediately by the team.
 
 ## The Money Trail
 
