@@ -24,6 +24,19 @@ Imagine this scenario:
 
 It's like writing a book but not publishing it, and then someone else publishes it under their name - and all official records show them as the author because they paid the publishing fee.
 
+These are the original tokens' transactions by the perpetrator:
+
+<img width="1425" alt="image" src="https://github.com/user-attachments/assets/b68881d9-5be6-4483-820b-d41af9616968" />
+
+this is them paying the fee to 'create' the token in fact on the blockchain:
+
+<img width="1425" alt="image" src="https://github.com/user-attachments/assets/2cd0da49-2bed-474a-a0fb-9a2a36e69b25" />
+
+
+https://solscan.io/tx/2xZAAFQQQpAztX15ADDGncPNoqwhdxHXWNDY13AmbFTzqgCxp19j5pNU5ZGb8bStpyKZ5wzvtrU1Mav7rqyZJWkB
+
+the token now has, for all intents and purposes, absolutely nothing to do with the original creator - other than bearing their stamp of creation on the pumpdotfun interface, incorrectly. This is a blatant disregard for how provenence as a blockchain concept works, and at the very least should be treated as a critical security concern and fixed immediately by the team.
+
 ## The Money Trail
 
 The attackers have a sophisticated system for handling their profits:
