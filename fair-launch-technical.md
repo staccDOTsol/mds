@@ -130,16 +130,17 @@ This analysis reveals critical contradictions in PumpDotFun's "fair launch" clai
 Based on current platform metrics:
 
 Token Lifecycle Statistics:
-- Created: 150 tokens
-- Bundled Transactions: 5,559,326
-- Failed Tokens: 99.97%
-- Graduation Rate: <1.43%
+- Total Tokens Created: 150
+- Failed Tokens Rate: ~99.97%
 
 Activity Distribution:
 - Automated Trading: ~75%
 - UI-Based Trading: ~25%
-- Bundled Transactions: 33-66%
+- Bundled Transaction Rate: 33-66% of all transactions
 - Heavy Bundle Activity: 5-6 tokens/hour
+
+Note: All metrics should be independently verified. Transaction counts and specific numbers 
+are subject to verification and may vary based on measurement methodology and time period.
 
 ## References
 
