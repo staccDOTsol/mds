@@ -61,7 +61,7 @@ Overall Success Rate:
 ```
 
 Important Context:
-- Most transactions (75%) don't come from the website
+- Most transactions (75% as admitted by PumpDotFun) don't come from the website
 - Bots and automated systems dominate trading
 - Regular users face overwhelming disadvantages
 - Success is nearly impossible for normal traders
