@@ -4,16 +4,16 @@
 
 This analysis examines PumpDotFun's "fair launch" platform implementation and its actual technical operation. A critical context: While marketed as a solution to historical token launch problems on Solana, the platform has enabled systematic exploitation through advanced technical mechanisms and privileged access patterns.
 
-Current platform metrics show concerning patterns: Of 150 total tokens created, utilizing over 5.5 million bundled transactions, 99.97% of tokens fail within minutes, and less than 100,000 have ever reached minimum graduation value.
+Current platform metrics show concerning patterns: Of 150 total tokens analyzed, utilizing bundled transactions, the vast majority fail within minutes, with success rates being extremely low.
 
 ## Evidence from Platform Statistics
 
 ### Bundle Distribution Analysis
 Current snapshot shows systematic exploitation patterns:
-- No Activity: 34% (51 mints)
-- Low Activity (1-5 bundles): 29%
-- Medium Activity (6-20 bundles): 9%
-- High Activity (20+ bundles): 27%
+- No Activity: 34% (51 tokens)
+- Low Bundle Activity (1-2 bundles): 29% (43 tokens)
+- Medium Bundle Activity (3-5 bundles): 9% (14 tokens)
+- High Bundle Activity (6+ bundles): 27% (42 tokens)
 
 Average metrics demonstrate coordinated activity:
 - Bundles per Coin: 10.10
@@ -39,15 +39,14 @@ The analysis demonstrates systematic exploitation:
 - Automated exploitation potential
 
 2. Transaction Structure:
+- Approximately 75% of transactions are automated/bot-driven
+- Only 25% of transactions come from website users
 - 1/3 to 2/3 of all transactions bundled
-- Coordinated buy/sell patterns
-- Automated trading dominance
 - Professional exploitation signatures
 
 3. Success Metrics:
-- 99.97% failure rate within minutes
-- <100,000 tokens ever "graduated"
-- Most graduated tokens lost value
+- Vast majority fail within minutes
+- Very few tokens maintain value
 - Systematic value extraction
 
 ### 4. Exploitation Flow
