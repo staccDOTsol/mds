@@ -4,9 +4,9 @@
 
 A sophisticated group is exploiting PumpDotFun's token creation system to impersonate legitimate token creators. In this particular case, they successfully extracted about 20 SOL through this scheme and continue to create new impersonation attempts, including tokens like "Burwick Popper Wolf" after "Dog Shit Going Nowhere" was created.
 
-## How Does It Work?
+## Essentially...?
 
-A ratioanl and good actor comes along, uses pumpdotfun, creates a token, but doesn't buy any and nobody else does either, and then the exploiter B9sa...473K steps in, B9sa...473K pays the fee to activate the token, B9sa...473K gets recorded as the creator on the blockchain, and B9sa...473K can now pretend they were the original creator.
+A rational and good actor comes along, uses pumpdotfun, creates a token, but doesn't buy any and nobody else does either, and then the exploiter B9sa...473K steps in, B9sa...473K pays the fee to activate the token, B9sa...473K gets recorded as the creator on the blockchain, and B9sa...473K can now pretend they were the original creator.
 
 ## How Does It Work?
 
