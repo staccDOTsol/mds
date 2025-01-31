@@ -6,6 +6,10 @@ A sophisticated group is exploiting PumpDotFun's token creation system to impers
 
 ## How Does It Work?
 
+Someone comes along, uses pumpdotfun, creates a token, but doesn't buy any and nobody else does either, and then the impersonator steps in, pays the fee to activate the token, and gets recorded as the creator on the blockchain, and can now pretend they were the original creator.
+
+## How Does It Work?
+
 Imagine this scenario:
 
 1. Someone creates a token on pump.fun
