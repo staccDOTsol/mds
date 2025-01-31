@@ -2,7 +2,7 @@
 
 ## What's Happening?
 
-A sophisticated group is exploiting PumpDotFun's token creation system to impersonate legitimate token creators. In this particular case, they successfully extracted about 20 SOL through this scheme and continue to create new impersonation attempts, including tokens like "Burwick Popper Wolf" and others.
+A sophisticated group is exploiting PumpDotFun's token creation system to impersonate legitimate token creators. In this particular case, they successfully extracted about 20 SOL through this scheme and continue to create new impersonation attempts, including tokens like "Burwick Popper Wolf" after "Dog Shit Going Nowhere" was created.
 
 ## How Does It Work?
 
@@ -39,7 +39,7 @@ The group follows a consistent pattern:
 
 For example:
 - After succeeding with one token
-- They created "Burwick Popper Wolf" and others
+- They created a new token "Burwick Popper Wolf" after "Dog Shit Going Nowhere" was created.
 - Each time pretending to be the legitimate creator
 - Building on their previous successes
 

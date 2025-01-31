@@ -35,7 +35,7 @@ Split Pattern:
 ```
 Current Activity:
 ---------------
-Target: Burwick Popper Wolf token
+Target: Burwick Popper Wolf token, after "Dog Shit Going Nowhere" was created
 Initial Investment: 8 SOL
 Pattern: Same deployment exploitation technique
 Status: Active impersonation ongoing
