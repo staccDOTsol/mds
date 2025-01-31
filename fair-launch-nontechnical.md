@@ -44,12 +44,15 @@ But here's the critical problem:
 Looking at current platform statistics:
 
 ```
-Total Tokens: 150
-Activity Levels:
-- No Activity: 51 tokens (34%)
-- Low Activity: 43 tokens (29%)
-- Medium Activity: 14 tokens (9%)
-- High Activity: 42 tokens (27%)
+Total Tokens Analyzed: 150
+Bundle Activity Levels Per Token:
+- No Bundle Activity: 51 tokens (34%)
+- Low Bundle Activity (1-2 bundles): 43 tokens (29%)
+- Medium Bundle Activity (3-5 bundles): 14 tokens (9%)
+- High Bundle Activity (6+ bundles): 42 tokens (27%)
+
+
+Bundles are only used by sophisticated actors, usually to exploit lesser-savvy users.
 
 Success Rate:
 - Failed within minutes: 99.97%
