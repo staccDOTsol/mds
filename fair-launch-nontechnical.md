@@ -54,7 +54,7 @@ Bundle Activity Levels Per Token:
 
 Bundles are only used by sophisticated actors, usually to exploit lesser-savvy users.
 
-Success Rate:
+Overall Success Rate:
 - Failed within minutes: 99.97%
 - Ever reached minimum value: <100,000
 - Maintained value afterward: Very few
