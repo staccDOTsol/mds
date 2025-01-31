@@ -6,7 +6,7 @@ A sophisticated group is exploiting PumpDotFun's token creation system to impers
 
 ## Essentially...?
 
-A rational and good actor comes along, uses pumpdotfun, creates a token, but doesn't buy any and nobody else does either, and then the exploiter B9sa...473K steps in, B9sa...473K pays the fee to activate the token, B9sa...473K gets recorded as the creator on the blockchain, and B9sa...473K can now pretend they were the original creator.
+A rational and good actor comes along, uses pumpdotfun, creates a token, but doesn't buy any and nobody else does either, and then the exploiter B9sa...473K steps in, B9sa...473K pays the fee to activate the token, B9sa...473K gets recorded as the creator on the blockchain, and B9sa...473K can now pretend they were the original creator. They then use this position to create new more topical tokens when the news cycle focues on the original token.
 
 ## How Does It Work?
 
