@@ -112,24 +112,8 @@ This situation raises serious concerns about:
    - Favors technical advantages
    - Creates unfair competition
 
-## Scale of Impact
 
-```
-Platform Activity:
-----------------
-Total Tokens Created: 150
-                      |
-                      v
-Bundled Transactions: 5.5M+
-                      |
-                      v
-Failed Immediately: 99.97%
-                      |
-                      v
-Regular User Success: ~0%
-```
-
-Even from current platform statistics:
+From current platform statistics:
 
 ```
 Transaction Sources:
