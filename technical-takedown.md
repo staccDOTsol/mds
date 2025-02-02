@@ -150,9 +150,9 @@ How we can prove this:
 
 ```plaintext
 Evidence from Solscan:
-Update Authority: Pump.fun Token Mint ✓
+Update Authority: Pump.fun Token Mint Authority ✓
 Current Metadata URI: Active IPFS link
-Token Program: Their controlled program
+Owner of their Mint Authority: Their controlled program
 ```
 
 How we can prove this:
