@@ -120,126 +120,140 @@ The code structures prove:
 
 ### Final Implication: Technical excuses for non-compliance are invalid as code proves complete control
 
-# Breaking Down The Evidence Chains: With On-Chain Proof
+# Proof of Control: Three Key Points
 
-https://solscan.io/token/BXebtR4k2WiaZ1HJmxcZkoCdxSBx1g1xnEpVra9Ppump#metadata
+## Overview
 
-## 1. "They own and control the program"
+PumpDotFun maintains three distinct points of control over token content. Each point is independently verifiable and under their direct management.
 
-How we know this from on-chain data:
+## 1. Frontend Platform Control
+
 ```plaintext
-Authority Structure (From Solscan):
-- Update Authority: Pump.fun Token Mint ✓
-- Mint Authority: N/A (given up)
-- Freeze Authority: N/A (given up)
+Evidence from Solscan and Platform:
+- Token created through pump.fun interface
+- Content uploaded via their platform
+- Images and metadata handled by their systems
+- Token: "Dog Shit Going NoWhere (DOGSHIT2)"
 ```
-Evidence chain:
-1. The blockchain data shows:
-   - They deliberately kept update authority
-   - They use their PDA for this control
-   - They chose which powers to keep
-2. This proves control because:
-   - Update authority is the power needed for metadata
-   - They specifically retained this power
-   - This authority is active now
 
-## 2. "They maintain the content"
+How we can prove this:
+1. All token creation flows through their UI
+   - Users must use their interface
+   - Content uploads go to their storage
+   - They process all deployments
+2. Their platform manages all content
+   - Initial uploads
+   - Storage systems
+   - Display mechanisms
 
-How we know this from metadata:
+## 2. Metadata Authority Control
+
 ```plaintext
-Metadata URI (From Solscan):
-https://ipfs.io/ipfs/QmUx78eh14T9PSFjYoHaEeWENqUFLssWrrJ5oQBxu1ycu1
-
-Token Data (From Solscan):
-- Name: "Dog Shit Going NoWhere"
-- Symbol: "DOGSHIT2"
-- Description: "Don't buy this coin"
+Evidence from Solscan:
+Update Authority: Pump.fun Token Mint ✓
+Current Metadata URI: Active IPFS link
+Token Program: Their controlled program
 ```
-Evidence chain:
-1. All content points to their IPFS:
-   - The URI pattern shows their control
-   - The metadata is actively served
-   - The content remains accessible
-2. They maintain this because:
-   - The links are functional
-   - The content is available
-   - The IPFS gateway responds
 
-## 3. "They can modify it"
+How we can prove this:
+1. They maintain the Update Authority PDA
+   - Deliberately kept this control
+   - Gave up other authorities
+   - Maintained update power
+2. This authority allows them to:
+   - Change metadata anytime
+   - Update token information
+   - Modify or remove content links
 
-We see this directly in Solscan:
+## 3. IPFS Content Control
+
 ```plaintext
-Update Authority Proof:
-✓ Pump.fun Token Mint controls updates
-✓ Active authority right now
-✓ Only authority they kept
+Evidence from Solscan Metadata:
+Current IPFS URI: https://ipfs.io/ipfs/QmUx78eh14T9PSFjYoHaEeWENqUFLssWrrJ5oQBxu1ycu1
+Created through: Their platform
+Pinned by: Their service
 ```
-Evidence chain:
-1. The blockchain shows:
-   - They kept update power
-   - Gave up other powers
-   - Maintain this control
-2. This is significant because:
-   - Update authority = metadata control
-   - They chose this specific power
-   - It's currently active
 
-## 4. "They require no external permission"
+How we can prove this:
+1. Content upload process:
+   - Files uploaded to their platform
+   - They pin the IPFS content
+   - They maintain availability
+2. They control persistence:
+   - Their pinning service
+   - Their gateway access
+   - Their content management
 
-Current authority structure proves this:
-```plaintext
-From Solscan:
-✓ Update Authority: Their PDA
-✓ Their program controls metadata
-✓ No other signers needed
-```
-Evidence chain:
-1. The authority structure shows:
-   - Single controller (them)
-   - No multi-sig requirement
-   - Direct control path
-2. We can verify because:
-   - It's visible on Solscan
-   - The blockchain confirms it
-   - The structure is public
+## Verification Methods
 
-## 5. "They actively manage the system"
+### 1. Frontend Control
+- Visit pump.fun
+- Observe token creation process
+- Track content upload flow
 
-Current state shows this:
-```plaintext
-Active Management Evidence:
-- Market Cap: $2,623,343.52
-- Current Supply: 999,829,837.01
-- Holders: 5,356
-- Metadata: Actively maintained
-```
-Evidence chain:
-1. The system is actively:
-   - Processing trades
-   - Maintaining metadata
-   - Serving content
-2. This proves ongoing control:
-   - Not abandoned
-   - Actively managed
-   - Currently operational
+### 2. Metadata Control
+- Check Solscan authority data
+- Verify update permissions
+- Confirm PDA ownership
 
-## Summary of On-Chain Evidence
+### 3. IPFS Control
+- Verify IPFS URI source
+- Check pinning service
+- Confirm gateway control
 
-The Solscan data provides direct, verifiable proof that:
+## Key Points for Legal Action
 
-1. They maintain active control through:
-   - Their chosen authority structure
-   - Their PDA's current permissions
-   - Their active management
+1. **Frontend Platform**
+   - They own the interface
+   - They process uploads
+   - They handle deployment
 
-2. They deliberately structured control by:
-   - Keeping update authority
-   - Maintaining IPFS content
-   - Managing metadata access
+2. **Metadata Control**
+   - They hold update authority
+   - They can modify anytime
+   - They maintain program control
 
-3. They can comply immediately because:
-   - They have active update authority
-   - No other permissions needed
-   - Full control of metadata
+3. **IPFS Content**
+   - They pin the content
+   - They maintain availability
+   - They control access
 
-Each point is independently verifiable on the blockchain through Solscan, proving both their capability and responsibility for content control.
+## Required Actions Within Their Control
+
+1. **Frontend Changes**
+   - Remove from interface
+   - Delete from storage
+   - Update display systems
+
+2. **Metadata Updates**
+   - Use update authority
+   - Modify token information
+   - Remove content links
+
+3. **IPFS Management**
+   - Unpin content
+   - Remove from gateway
+   - Stop serving files
+
+## Timeline for Compliance
+
+All three control points can be updated immediately:
+1. Frontend updates: Instant database changes
+2. Metadata updates: Single transaction
+3. IPFS changes: Immediate unpin
+
+No external dependencies or permissions required for any point of control.
+
+## Conclusion
+
+PumpDotFun maintains complete, verifiable control over:
+1. Their frontend platform where content is uploaded and managed
+2. The metadata update authority through their PDA
+3. The IPFS content through their pinning service
+
+Each control point is:
+- Independently verifiable
+- Under their direct management
+- Immediately modifiable
+
+No technical barriers exist to prevent immediate compliance across all three control points.
