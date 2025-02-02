@@ -42,8 +42,7 @@ function getTokenData(tokenId) {
 ```rust
 // PSEUDOCODE: The actual metadata update
 // They own this PDA mint authority
-#[account(
-    seeds = [mint_authority_key().as_ref()],
+#[account(seeds = [mint_authority::PDA_SEED],
     bump
 )]
 pub mint_authority: UncheckedAccount<'info>,
