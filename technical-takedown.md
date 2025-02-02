@@ -122,6 +122,8 @@ The code structures prove:
 
 # Breaking Down The Evidence Chains: With On-Chain Proof
 
+https://solscan.io/token/BXebtR4k2WiaZ1HJmxcZkoCdxSBx1g1xnEpVra9Ppump#metadata
+
 ## 1. "They own and control the program"
 
 How we know this from on-chain data:
