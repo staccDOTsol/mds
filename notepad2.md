@@ -20,42 +20,24 @@ Total Estimated Illicit Gains: **Hundreds of Millions of Dollars**
 
 ---
 
-## **Unregistered Securities & Market Manipulation (SEC Violations)**
-
-### **Token Creation Is A Cover For Pump & Dumps**
-- **Users can create a token in seconds with no oversight.**  
-  - Pump.fun markets this as a **"fun, decentralized experiment"** but it is clearly designed to **facilitate rapid pump & dumps**.  
-  - > "Anyone can launch their own coin for free in under 30 seconds."  
-    — [📄 `4_transcription.txt#char8905`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
-  - **SEC Violation:** **Unregistered securities being actively promoted & manipulated**.
-
-### **Insider Trading & Front-Running Encouraged**
-- **Developers are explicitly encouraged to pre-mint tokens for themselves before the public can buy.**
-  - > "Before you launch a coin, you can buy as much of the supply as you want."  
-    — [📄 `4_transcription.txt#char13452`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
-  - **SEC Violation:** **This is insider trading, front-running, and blatant market manipulation.**
-
-### **Admitted Market Manipulation Through Bots**
-- **The Pump.fun team knows bots artificially inflate volume & deceive users into thinking a coin is popular.**  
-  - > "Bots can be a good thing… sometimes they diamond-hand better than humans."  
-    — [📄 `4_transcription.txt#char22491`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
-  - **SEC & FTC Violations:** **This is classic market fraud—creating false demand through artificial actors.**
-
----
-
 ## **Encouragement of Exploitation, Sexualization & Criminal Behavior**
 
-### **Open Discussion Of Sexual Content On Platform**
-- **Users openly ask if they can stream pornography on Pump.fun, and the response is ambiguous.**
-  - > "We are very free speech-oriented."  
-    — [📄 `3_transcription.txt#char51830`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1)  
-  - **IMPLIED:** **No clear rules banning sexual content, potentially exposing minors to adult material.**
-  - **DOJ & FTC Violations:** **Failure to moderate adult content may violate laws protecting minors from harmful material.**
+### **Users Explicitly Ask About Live-Streaming Sex on Pump.fun**
+- **A user asks if they can broadcast themselves having sex on Pump.fun.** Instead of shutting this down as inappropriate or against platform policy, the response is **non-committal and evasive**.
 
-### **Potential Child Exploitation Risks**
-- **No safeguards exist to prevent the launch of sexualized tokens using minors’ likenesses or underage themes.**  
-- **Team allows "anything that isn't illegal," ignoring implications of this policy.**
-  - **FTC & Child Exploitation Laws:** **Failure to moderate content risks violating laws against sexual exploitation of minors.**
+  **Question posed by the user:**  
+  > "I was thinking about fucking a girl live on Pump.fun tonight because my birthday's tomorrow. So I thought it'd be super exciting and crazy and different. But is that illegal or not? I'm genuinely asking. The girl is coming over. Is this something that I can put on Pump.fun? Fucking a girl live?"  
+  — [📄 `3_transcription.txt#char51830`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1)
+
+  **Pump.fun Team's Response:**  
+  > "I mean, okay, let's put it this way. We are very free speech-oriented. Obviously, sexual content does exist on the web. So yeah, I hope you sort of take that answer as we sort of say it basically."  
+  — [📄 `3_transcription.txt#char51860`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1)
+
+  - **Implied:** **No explicit prohibition against live pornography.**
+  - **Failure to explicitly ban sexually explicit content, exposing potential legal liabilities.**
+  - **Failure to prevent the sexualization of individuals on-platform.**
+  - **FTC & DOJ Violations:** **Potential exposure of minors to adult content if no safeguards exist.**
+  - **Could constitute reckless facilitation of adult content on a financial platform.**
 
 ---
 
@@ -99,7 +81,7 @@ Total Estimated Illicit Gains: **Hundreds of Millions of Dollars**
 2. **Encouragement of Criminal Behavior**  
    - **Team explicitly supports scam tokens, fraud, & illicit financial behavior.**
 3. **Failure to Moderate Sexual & Exploitative Content**  
-   - **Ambiguous stance on pornography & sexual content risks exposing minors.**
+   - **Failure to explicitly ban pornography, unclear stance on sexual content.**
 4. **Money Laundering & Tax Evasion**  
    - **No KYC, perfect for laundering illicit funds.**
 5. **Refusal to Act Against Known Scams**  
