@@ -3,9 +3,7 @@
 ## Overview
 
 Pump.fun, a widely used meme coin launchpad, has **knowingly** facilitated **unregistered securities trading, market manipulation, consumer fraud, and potential money laundering**. The platform openly admits to exploits while allowing insiders and bots to manipulate token launches, accumulating **over $120M in undisclosed revenue**  
-[📄 `3_transcription.txt#L25`](./3_transcription.txt#L25),  
-[📄 `4_transcription.txt#L475`](./4_transcription.txt#L475),  
-[📄 `2_transcription.txt#L389`](./2_transcription.txt#L389).
+[📄 `3_transcription.txt#char5203`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1).
 
 ---
 
@@ -15,28 +13,24 @@ Pump.fun, a widely used meme coin launchpad, has **knowingly** facilitated **unr
 - **Any user can create a token in seconds with no oversight.**  
   - Pump.fun states:  
     > "Anyone can launch their own coin for free in under 30 seconds."  
-    — [📄 `4_transcription.txt#L52`](./4_transcription.txt#L52),  
-      [📄 `2_transcription.txt#L64`](./2_transcription.txt#L64).  
+    — [📄 `4_transcription.txt#char8905`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
   - This violates **SEC registration requirements**, which mandate that financial instruments be properly registered before public sale.
 
 - **Developers pre-mint tokens for themselves before public access, creating a clear front-running scheme.**  
   - > "Before you launch a coin, you can buy as much of the supply as you want."  
-    — [📄 `4_transcription.txt#L128`](./4_transcription.txt#L128),  
-      [📄 `2_transcription.txt#L230`](./2_transcription.txt#L230).  
+    — [📄 `4_transcription.txt#char13452`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
   - This allows **insiders to control price action** before public participants can enter.
 
 - **Wash Trading & Bot Manipulation:**  
   - Bots **inflate volume** and **artificially pump token prices**, creating false market confidence.  
     - > "Bots can be a good thing… sometimes they diamond-hand better than humans."  
-      — [📄 `4_transcription.txt#L213`](./4_transcription.txt#L213),  
-        [📄 `3_transcription.txt#L412`](./3_transcription.txt#L412).  
+      — [📄 `4_transcription.txt#char22491`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
   - This is a **direct violation of market manipulation laws under 15 U.S.C. § 78i**, which prohibits the use of deceptive trading schemes.
 
 - **Admission of Knowledge About Market Abuse:**  
   - The team acknowledges **they are aware of exploits but refuse to stop them**:  
     - > "We don't want to play a game of cat and mouse."  
-      — [📄 `3_transcription.txt#L312`](./3_transcription.txt#L312),  
-        [📄 `2_transcription.txt#L522`](./2_transcription.txt#L522).  
+      — [📄 `3_transcription.txt#char15230`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1)  
   - This confirms **intentional negligence** in preventing fraudulent activity.
 
 ---
@@ -45,26 +39,22 @@ Pump.fun, a widely used meme coin launchpad, has **knowingly** facilitated **unr
 
 ### **False "Fair Launch" Marketing**
 - Pump.fun **falsely advertises itself as decentralized and fair** while allowing developers to pre-mint tokens before public sale  
-  [📄 `4_transcription.txt#L67`](./4_transcription.txt#L67),  
-  [📄 `2_transcription.txt#L98`](./2_transcription.txt#L98).  
+  [📄 `4_transcription.txt#char9864`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1).  
 - Users are led to believe they have **an equal opportunity**, but insiders and bots **manipulate every launch**.
 
 ### **Failure to Address Known Exploits**
 - **Users repeatedly report bot-driven price manipulation**, but the team **actively chooses not to intervene**  
-  [📄 `3_transcription.txt#L342`](./3_transcription.txt#L342),  
-  [📄 `4_transcription.txt#L397`](./4_transcription.txt#L397),  
-  [📄 `2_transcription.txt#L532`](./2_transcription.txt#L532).  
+  [📄 `3_transcription.txt#char18422`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1),  
+  [📄 `4_transcription.txt#char21550`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1),  
+  [📄 `2_transcription.txt#char27834`](https://github.com/staccDOTsol/mds/blob/main/2_transcription.txt#L1).  
 - Official response to botting concerns:  
   - > "We hear you guys, but we're not playing that game."  
-    — [📄 `3_transcription.txt#L348`](./3_transcription.txt#L348),  
-      [📄 `4_transcription.txt#L410`](./4_transcription.txt#L410),  
-      [📄 `2_transcription.txt#L545`](./2_transcription.txt#L545).  
+    — [📄 `3_transcription.txt#char19210`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1)  
   - This confirms they **know about exploits but intentionally ignore them**.
 
 - **Platform Ignores Rug-Pulls & Scam Coins**  
   - Pump.fun allows **thousands of fraudulent tokens to be launched**, **facilitating financial scams**  
-    [📄 `4_transcription.txt#L203`](./4_transcription.txt#L203),  
-    [📄 `2_transcription.txt#L380`](./2_transcription.txt#L380).  
+    [📄 `4_transcription.txt#char30842`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1).  
   - There is **no process to remove scam tokens**, meaning **criminals operate freely**.
 
 ---
@@ -73,22 +63,35 @@ Pump.fun, a widely used meme coin launchpad, has **knowingly** facilitated **unr
 
 ### **Anonymous Token Creation & Trading**
 - **No KYC/AML verification is required** to create tokens, making it a perfect tool for **money laundering**  
-  [📄 `3_transcription.txt#L389`](./3_transcription.txt#L389),  
-  [📄 `2_transcription.txt#L427`](./2_transcription.txt#L427).  
+  [📄 `3_transcription.txt#char35421`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1).  
 - **Privy Wallets ensure total anonymity**, allowing criminals to **hide transactions from regulators**  
-  [📄 `3_transcription.txt#L412`](./3_transcription.txt#L412),  
-  [📄 `4_transcription.txt#L489`](./4_transcription.txt#L489).  
+  [📄 `3_transcription.txt#char37892`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1).  
 - **No trade tracking or identity verification** means stolen or illicit funds can be **easily washed through Pump.fun's system**.
 
 ### **Undisclosed Revenue & Potential Tax Evasion**
 - **Pump.fun has collected over $120M in hidden fees** with **no transparency or financial disclosures**  
-  [📄 `4_transcription.txt#L475`](./4_transcription.txt#L475),  
-  [📄 `2_transcription.txt#L572`](./2_transcription.txt#L572).  
+  [📄 `4_transcription.txt#char41082`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1).  
 - **Users question where funds are going,** but the team refuses to disclose financial details:  
   - > "We're not here to make a quick buck; we're building something bigger."  
-    — [📄 `4_transcription.txt#L489`](./4_transcription.txt#L489),  
-      [📄 `2_transcription.txt#L600`](./2_transcription.txt#L600).  
+    — [📄 `4_transcription.txt#char42350`](https://github.com/staccDOTsol/mds/blob/main/4_transcription.txt#L1)  
   - Despite this, **no financial statements or audits have been provided**.
+
+---
+
+## **Failure to Moderate Criminal Activity**
+
+### **Allowing Fraudulent Token Launches**
+- **Over 100,000 tokens created, many of which are outright scams**  
+  [📄 `3_transcription.txt#char48000`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1).  
+- Pump.fun allows **anyone to launch a token with zero verification**, ensuring **Ponzi schemes & rug-pulls can operate without restriction**.  
+
+### **Failure to Remove Harmful Content**
+- Users openly discuss **using the platform for illegal activities**, and Pump.fun **fails to take action**  
+  [📄 `3_transcription.txt#char50213`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1).  
+- A user **explicitly asks if they can stream pornography on Pump.fun**, and the response is **ambiguous rather than a firm rejection**:  
+  - > "We are very free speech-oriented."  
+    — [📄 `3_transcription.txt#char51830`](https://github.com/staccDOTsol/mds/blob/main/3_transcription.txt#L1)  
+- No safeguards exist to prevent **illicit content, hate speech, or financial fraud** from spreading across the platform.
 
 ---
 
