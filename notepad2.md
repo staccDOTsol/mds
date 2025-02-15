@@ -123,7 +123,7 @@ Instead of acknowledging that **these integrations would require financial compl
 > **Pump.fun Team Member:** """My friend is already searching for a 'model' [to integrate with Pump.fun]."""  
 > — Internal Pump.fun team chats  
 
-> **Critical Detail:** The team member making this statement is an **18-year-old who had just started school at Oxford University**—a **child under UK law**. This raises **serious ethical and legal concerns** about the **targeting and involvement of minors in financial exploitation schemes** linked to adult content.
+> **Critical Detail:** The team member making this statement is an **18-year-old who had just started school at Oxford University**. This raises **serious ethical and legal concerns** about the **targeting and involvement of minors in financial exploitation schemes** linked to adult content.
 
 > **Pump.fun Executive:** """Whoever builds a streaming service with Pump.fun AMM is going to print."""  
 > — Internal Pump.fun team chats  
